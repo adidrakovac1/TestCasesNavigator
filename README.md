@@ -29,7 +29,6 @@ Before running the automated tests, make sure you have the following installed:
 
     ```bash
     git clone https://github.com/adidrakovac1/TestCasesNavigator.git
-    cd UITests
     ```
 
 2. **Open the project**:
@@ -52,9 +51,10 @@ Before running the automated tests, make sure you have the following installed:
 
 1. **Build the project**:
 
-    In the terminal, build the project by running:
+    In the terminal after openong the project, build the project by running:
 
     ```bash
+    cd UITests
     dotnet build
     ```
 
