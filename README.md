@@ -4,11 +4,12 @@ This repository contains a set of automated UI tests for the www.navigator.ba we
 # Prerequisites
 Before running the automated tests, make sure you have the following installed:
 - Should use Edge browser because tests are made for that browser.
-- .NET SDK: You need .NET SDK installed on your machine to run the tests. 
-- Visual studio code.
+- .NET SDK: You need latest .NET SDK installed on your machine to run the tests. 
+- You need Visual studio code installed.
 - This project uses Selenium WebDriver to interact with the web browser for automated UI tests. The specific WebDriver you need EdgeDriver will be handled by the NuGet package manager.
 - Browser Drivers: You will need to have the appropriate drivers EdgeDriver installed. These are typically handled by Selenium WebDriver, but they may need to be manually updated depending on your browser version.
 - NuGet Packages you need to have: The project uses the following NuGet packages: Selenium.WebDriver, Selenium.WebDriver.MicrosoftDriver, NUnit, NUnit3TestAdapter, Microsoft.NET.Test.Sdk
+- You will need visual studio code extensions like C# Dev kit and .NET install tool for extension authors.
 
 # Stup instructions
 1. Clone the repository:
